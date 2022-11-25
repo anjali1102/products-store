@@ -7,7 +7,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const navlinks = [
     { id: 1, name: "HOME", link: "/" },
-    { id: 1, name: "THE JOURNEY", link: "/" },
+    { id: 1, name: "THE JOURNEY", link: "/journey" },
     { id: 1, name: "TEAM", link: "/" },
     { id: 1, name: "STORE", link: "/" },
     { id: 1, name: "CONTACT", link: "/" },
