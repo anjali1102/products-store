@@ -1,0 +1,16 @@
+.navbar_wrapper {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logo {
+  max-width: 50px;
+}
+.logoImg {
+  width: 100%;
+}
+
+.navlinks {
+  list-style: none;
+  gap: 1.5rem;
+}
