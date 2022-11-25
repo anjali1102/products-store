@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import brandlogo from "../../assets/websitelogo.png";
-import { BiBorderBottom, BiUser } from "react-icons/bi";
+import { BiUser } from "react-icons/bi";
 import "./Navbar.css";
 
 const Navbar = () => {

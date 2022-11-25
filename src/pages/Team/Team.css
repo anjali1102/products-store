@@ -1,0 +1,27 @@
+.teammates {
+  gap: 3rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card {
+  width: 13rem;
+  box-shadow: -1px 0px 17px 1px rgba(0, 0, 0, 0.75);
+  height: auto;
+}
+
+.team-img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.team-member-about {
+  text-align: center;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
