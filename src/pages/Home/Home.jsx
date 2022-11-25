@@ -1,11 +1,15 @@
 import React from "react";
 import { Navbar } from "../../component/navbar/Navbar";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <main className="home-wrapper">
       <Navbar />
-    </div>
+      <section className="flex-center home-content">
+        <h1 className="fs-4">KICKSUP</h1>
+      </section>
+    </main>
   );
 };
 
