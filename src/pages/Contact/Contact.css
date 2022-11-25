@@ -1,0 +1,19 @@
+.contact_details > ul {
+  list-style-type: none;
+}
+
+.socials {
+  gap: 1rem;
+}
+
+.contact-wrapper {
+  height: 70vh;
+  margin: 1rem auto;
+}
+
+.contact-card {
+  box-shadow: 0px 2px 6px #000;
+  width: 300px;
+  padding: 2rem;
+  margin: 0 auto;
+}
