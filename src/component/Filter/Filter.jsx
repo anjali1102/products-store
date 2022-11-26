@@ -1,5 +1,6 @@
 import React from "react";
 import { FiFilter } from "react-icons/fi";
+import "./Filter.css";
 
 const Filter = () => {
   return (
