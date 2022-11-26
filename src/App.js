@@ -4,6 +4,7 @@ import { Navbar } from "./component/navbar/Navbar";
 import { Contact } from "./pages/Contact/Contact";
 import { Home } from "./pages/Home/Home";
 import { Journey } from "./pages/Journey/Journey";
+import { Store } from "./pages/Store/Store";
 import { Team } from "./pages/Team/Team";
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/journey" element={<Journey />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

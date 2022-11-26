@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Product-sans";
-}
-
 @font-face {
   font-family: "Product-sans";
   src: local("Product-sans"),
     url("./assets/fonts/Product_Sans.ttf") format("truetype");
+}
+
+body {
+  font-family: "Product-sans";
 }
 
 /* --- */
@@ -170,6 +170,14 @@ body {
 }
 .mt-4 {
   margin-top: 4rem;
+}
+.mx-2 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .my-3 {
   margin-top: 2.5rem;
