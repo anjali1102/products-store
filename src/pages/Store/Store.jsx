@@ -6,7 +6,7 @@ import "./Store.css";
 
 const Store = () => {
   return (
-    <main className="store_wrapper">
+    <main className="store_wrapper my-3 p-3">
       <Filter />
       <Product />
       <Cart />
