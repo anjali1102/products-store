@@ -5,6 +5,9 @@
 .flex {
   display: flex;
 }
+.d-block {
+  display: block;
+}
 
 .flex-center {
   display: flex;
@@ -25,4 +28,32 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+}
+
+.primary-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: white;
+  cursor: pointer;
+}
+
+.disable-color {
+  color: gray;
+}
+
+.disable-btn {
+  background-color: #d2d2d2;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 80%;
+  }
 }

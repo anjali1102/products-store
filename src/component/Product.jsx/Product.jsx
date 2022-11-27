@@ -10,7 +10,7 @@ const Product = () => {
       <section className="product_header flex-align-center my-2">
         <h1>SHOES</h1>
         <FiSearch className="filter-icon" size={20} />
-        <button className="p-1 mx-2">sort by</button>
+        <button className="p-1 mx-2 secondary-btn">sort by</button>
       </section>
       <section className="product_items">
         {data.products.map((item) => {

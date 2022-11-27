@@ -14,16 +14,18 @@ const Cart = () => {
       <div className="cart-items flex"></div>
       <div className="cart-footer">
         <div className="flex">
-          <div>
+          <div className="flex-align-center mr-1 disable-color">
             <HiOutlineLocationMarker />
             <span className="pl-1">Home</span>
           </div>
-          <div>
+          <div className="flex-align-center ml-1 disable-color">
             <AiOutlineCalendar />
-            <span className="pl-1">Select date</span>
+            <span className="pl-1 ">Select date</span>
           </div>
         </div>
-        <button>Order now</button>
+        <button className="disable-btn p-1 my-2 d-block mx-auto">
+          Order now
+        </button>
       </div>
     </main>
   );
