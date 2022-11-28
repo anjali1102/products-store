@@ -1,8 +1,9 @@
 import React from "react";
-import { FaWindowClose } from "react-icons/fa";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useCart } from "../../context/cart-context";
+import "./CartCard.css";
 
-const CartCard = ({ _id, img, name, price }) => {
+const CartCard = ({ _id, image, name, price }) => {
   const { cart, setCart } = useCart();
 
   const cartCardHandler = () => {
@@ -11,14 +12,14 @@ const CartCard = ({ _id, img, name, price }) => {
   };
   return (
     <main className="cartCard_wrapper flex">
-      <FaWindowClose
+      <AiOutlineCloseCircle
         onClick={cartCardHandler}
         className="remove-from-cart-icon"
-        size={20}
+        size={30}
         color="red"
       />
       <div className="cart-product-img-container">
-        <img src={img} alt="cart-product" className="cart-product-img" />
+        <img src={image} alt="cart-product" className="cart-product-img" />
       </div>
       <div className="cart-product-details pl-2">
         <div>{name}</div>

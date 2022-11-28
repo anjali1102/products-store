@@ -1,0 +1,16 @@
+.SingleProduct_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 20%;
+  gap: 2rem;
+  grid-template-areas:
+    "singleProductCard cart"
+    "singleProductCard cart";
+}
+
+@media screen and (max-width: 1000px) {
+  .SingleProduct_wrapper {
+    grid-template-areas:
+      "singleProductCard singleProductCard"
+      "cart cart";
+  }
+}

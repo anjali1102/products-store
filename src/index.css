@@ -191,3 +191,22 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+
+.fs-xs {
+  font-size: 0.5rem;
+}
+.fs-sm {
+  font-size: 0.75rem;
+}
+.fs-base {
+  font-size: 1rem;
+}
+.fs-lg {
+  font-size: 1.25rem;
+}
+.fs-xl {
+  font-size: 1.5rem;
+}
+.fs-2xl {
+  font-size: 1.75rem;
+}

@@ -1,6 +1,7 @@
 .cart_wrapper {
   flex-direction: column;
   box-shadow: 0px 2px 6px #000;
+  /* grid-area: cart; */
 }
 
 .cart-icon {

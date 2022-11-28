@@ -1,0 +1,21 @@
+.cart-product-img {
+  width: 100%;
+  max-width: 7rem;
+  /* height: 7rem; */
+}
+
+.cartCard_wrapper {
+  position: relative;
+}
+
+.cart-product-img-container {
+  max-width: 7rem;
+  height: 7rem;
+}
+
+.remove-from-cart-icon {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  cursor: pointer;
+}
