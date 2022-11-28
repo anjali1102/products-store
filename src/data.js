@@ -26,7 +26,7 @@ export const data = [
       "Premium material and tech features are given a branded boost from German engineering. The Mercedes Kart Cat-X Tech Unisex Sneakers areleant style and esteem by Mercedes-AMG Petronas Motorsport. The piece rises to the occasion with an all-leather upper.",
     quantity: 1,
     color: "black",
-    type: "sneakers",
+    type: "loafers",
     rating: 1,
   },
   {
@@ -39,7 +39,7 @@ export const data = [
       "The Jako Slip-On Men's Shoes are perfect for a laceless running style. Lightweight and styled for everyday wear, they feature a breathable and durable mesh upper. Layered cushioning adds comfort that goes the distance.",
     quantity: 1,
     color: "black",
-    type: "shoes",
+    type: "sneakers",
     rating: 1,
   },
   {
@@ -52,7 +52,7 @@ export const data = [
       "Catering to the growing consumer expectation for casual, everyday comfort, the Serve Pro Lite Trainers feature shock-absorbing support for lightweight luxury.",
     quantity: 1,
     color: "white",
-    type: "shoes",
+    type: "loafers",
     rating: 1,
   },
   {
@@ -65,7 +65,7 @@ export const data = [
       "There's more to the Electron E Trainers than meets the eye. Its visible technology highlights fantastic features like a breathable mesh upper, synthetic quarter panels for support and a bold aesthetic that's both fun and futuristic. The elastic band on the heel provides extra comfort.",
     quantity: 1,
     color: "red",
-    type: "shoes",
+    type: "sneakers",
     rating: 2,
   },
   {
@@ -78,7 +78,7 @@ export const data = [
       "This one is for the collectors,connoisseur & extreme uber cool, the one8 Virat Kohli Basket Classic one8 V3 pays homage to the illustrious career of the legend himslef",
     quantity: 1,
     color: "white",
-    type: "sneakers",
+    type: "loafers",
     rating: 2,
   },
 ];

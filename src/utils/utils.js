@@ -1,3 +1,17 @@
+import { AiFillStar } from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
+
+export const getRatings = (rating) => {
+  const arrayOfStars = [1, 2, 3, 4, 5];
+  return arrayOfStars.map((index) =>
+    rating >= index ? (
+      <AiFillStar key={index} color="yellow" />
+    ) : (
+      <AiOutlineStar key={index} color="#f4b90e" />
+    )
+  );
+};
+
 export const filterproducts = (state, items) => {
   const {
     filterAbove1500,
