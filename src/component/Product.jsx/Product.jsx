@@ -11,7 +11,7 @@ const Product = () => {
   const filteredProducts = filterproducts(filterState, data);
 
   return (
-    <main className="product_wrapper">
+    <main className="product_wrapper p-3">
       <section className="product_header flex-align-center my-2">
         <h1>SHOES</h1>
         <FiSearch className="filter-icon" size={20} />
@@ -19,10 +19,7 @@ const Product = () => {
       </section>
       <section className="product_items">
         {filteredProducts.map((item) => {
-          {
-            console.log("item", item);
-          }
-          <ProductCard key={item.id} {...item} />;
+          return <ProductCard key={item.id} {...item} />;
         })}
       </section>
     </main>

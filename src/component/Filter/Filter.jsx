@@ -1,10 +1,12 @@
 import React from "react";
 import { FiFilter } from "react-icons/fi";
+import { useFilter } from "../../context/filter-context";
 import { CostFilter } from "../CostFilter/CostFilter";
 import { TypeFilter } from "../TypeFilter/TypeFilter";
 import "./Filter.css";
 
 const Filter = () => {
+  const { filterDispatch } = useFilter();
   return (
     <main className="filter_wrapper p-3">
       <section className="filter_header flex my-2">
@@ -14,7 +16,10 @@ const Filter = () => {
       <CostFilter />
       <TypeFilter />
       <section>
-        <button className="primary-btn p-1 d-block my-2 filter-btn mx-auto">
+        <button
+          className="primary-btn p-1 d-block my-2 filter-btn mx-auto"
+          onClick={() => filterDispatch({ type: "CLEAR_FILTER" })}
+        >
           Clear Filter
         </button>
       </section>
