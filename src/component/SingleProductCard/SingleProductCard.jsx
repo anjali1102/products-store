@@ -19,6 +19,7 @@ const SingleProductCard = () => {
   const inCart = isAlreadyInCart(cart, productId);
 
   const clickHandler = () => {
+    console.log(inCart);
     if (inCart) {
       const updatedCart = cart.filter(({ _id }) => _id !== selectedproduct._id);
       setCart(updatedCart);

@@ -12,15 +12,12 @@ const filterInitalState = {
 };
 
 const FilterProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(
-    filterReducer,
-    filterInitalState
-  );
+  const [state, dispatch] = useReducer(filterReducer, filterInitalState);
+
+  console.log("state", state);
 
   return (
-    <FilterContext.Provider
-      value={{ state, dispatch }}
-    >
+    <FilterContext.Provider value={{ state, dispatch }}>
       {children}
     </FilterContext.Provider>
   );
