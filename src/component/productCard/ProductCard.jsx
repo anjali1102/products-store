@@ -8,17 +8,17 @@ const ProductCard = ({ _id, name, image, price, rating }) => {
   const navigate = useNavigate();
   return (
     <main className="product-card">
+      {/* <div className="productCard-img-container"> */}
       <img
         src={image}
         className="product-img"
         alt="shoe"
         onClick={() => navigate(`/store/${_id}`)}
       />
-      <div className="product-details flex-align-center">
-        <div>
-          <div className="product-name">{name}</div>
-          <div className="product-price">Rs. {price}</div>
-        </div>
+      {/* </div> */}
+      <div className="productCard-title">{name}</div>
+      <div className="product-details">
+        <div className="product-price">Rs. {price}</div>
         <div className="ratings">{stars}</div>
       </div>
     </main>

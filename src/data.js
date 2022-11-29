@@ -2,7 +2,7 @@ import shoe from "./assets/shoe.jpg";
 import shoe2 from "./assets/shoe2.png";
 import { v4 as uuidv4 } from "uuid";
 
-export const data = [
+export const products = [
   {
     id: 1,
     _id: uuidv4(),
@@ -15,12 +15,13 @@ export const data = [
     color: "white",
     type: "sneakers",
     rating: 1,
+    designTemplate: 2,
   },
   {
     id: 2,
     _id: uuidv4(),
     name: "Mercedes Kart Cat-X Tech Unisex Sneakers",
-    price: 6000,
+    price: 8000,
     image: shoe2,
     about:
       "Premium material and tech features are given a branded boost from German engineering. The Mercedes Kart Cat-X Tech Unisex Sneakers areleant style and esteem by Mercedes-AMG Petronas Motorsport. The piece rises to the occasion with an all-leather upper.",
@@ -28,12 +29,13 @@ export const data = [
     color: "black",
     type: "loafers",
     rating: 1,
+    designTemplate: 3,
   },
   {
     id: 3,
     _id: uuidv4(),
     name: "Jako Slip-On Men's Shoes",
-    price: 2500,
+    price: 4500,
     image: shoe,
     about:
       "The Jako Slip-On Men's Shoes are perfect for a laceless running style. Lightweight and styled for everyday wear, they feature a breathable and durable mesh upper. Layered cushioning adds comfort that goes the distance.",
@@ -41,12 +43,13 @@ export const data = [
     color: "black",
     type: "sneakers",
     rating: 1,
+    designTemplate: 5,
   },
   {
     id: 4,
     _id: uuidv4(),
     name: "PUMA Serve Pro Lite Unisex shoes",
-    price: 2000,
+    price: 2500,
     image: shoe2,
     about:
       "Catering to the growing consumer expectation for casual, everyday comfort, the Serve Pro Lite Trainers feature shock-absorbing support for lightweight luxury.",
@@ -54,19 +57,21 @@ export const data = [
     color: "white",
     type: "loafers",
     rating: 1,
+    designTemplate: 3,
   },
   {
     id: 5,
     _id: uuidv4(),
     name: "Electron E Unisex Shoes",
-    price: 2500,
+    price: 3500,
     image: shoe,
     about:
       "There's more to the Electron E Trainers than meets the eye. Its visible technology highlights fantastic features like a breathable mesh upper, synthetic quarter panels for support and a bold aesthetic that's both fun and futuristic. The elastic band on the heel provides extra comfort.",
     quantity: 1,
-    color: "red",
+    color: "black",
     type: "sneakers",
     rating: 2,
+    designTemplate: 8,
   },
   {
     id: 6,
@@ -80,5 +85,6 @@ export const data = [
     color: "white",
     type: "loafers",
     rating: 2,
+    designTemplate: 3,
   },
 ];

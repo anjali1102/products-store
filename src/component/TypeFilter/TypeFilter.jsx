@@ -3,29 +3,29 @@ import { useFilter } from "../../context/filter-context";
 
 const TypeFilter = () => {
   const {
-    filterDispatch,
-    filterState: { filterByLoafers, filterBySneakers },
+    dispatch,
+    state: { filterByLoafers, filterBySneakers },
   } = useFilter();
   return (
     <section className="type_container">
-      <h3 className="py-1">Type</h3>
+      <h2 className="py-1">Type</h2>
       <label className="d-block" htmlFor="loafers">
         <input
-          onChange={() => filterDispatch({ type: "LOAFERS" })}
+          onChange={() => dispatch({ type: "LOAFERS" })}
           type="checkbox"
           id="loafers"
           checked={filterByLoafers}
         />
-        Loafers
+        <span className="fs-lg ml-1">Loafers</span>
       </label>
       <label className="d-block" htmlFor="sneakers">
         <input
-          onChange={() => filterDispatch({ type: "SNEAKERS" })}
+          onChange={() => dispatch({ type: "SNEAKERS" })}
           type="checkbox"
           id="sneakers"
           checked={filterBySneakers}
         />
-        Sneakers
+        <span className="fs-lg ml-1">Sneakers</span>
       </label>
     </section>
   );

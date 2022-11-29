@@ -1,0 +1,19 @@
+.colors_small_boxes > div {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.colors_small_boxes {
+  display: flex;
+  gap: 0.5rem;
+}
+.color-box1 {
+  background-color: black;
+  border: 2px solid rgb(96, 85, 85);
+}
+
+.color-box2 {
+  background-color: white;
+  border: 2px solid rgb(96, 85, 85);
+}

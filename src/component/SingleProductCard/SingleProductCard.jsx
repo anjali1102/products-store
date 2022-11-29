@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { AiOutlineStar } from "react-icons/ai";
 import { useCart } from "../../context/cart-context";
 import { getRatings, isAlreadyInCart } from "../../utils/utils";
-import { data } from "../../data";
+import { products } from "../../data";
 import "./SingleProductCard.css";
 
 const SingleProductCard = () => {
@@ -12,7 +12,7 @@ const SingleProductCard = () => {
   const navigate = useNavigate();
   const { cart, setCart } = useCart();
 
-  const selectedproduct = data.find(({ _id }) => _id === productId);
+  const selectedproduct = products.find(({ _id }) => _id === productId);
   const { image, name, price, rating } = selectedproduct;
   const stars = getRatings(rating);
 
