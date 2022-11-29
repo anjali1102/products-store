@@ -8,7 +8,7 @@ const ProductCard = ({ _id, name, image, price, rating }) => {
   const navigate = useNavigate();
   return (
     <main className="product-card">
-      {/* <div className="productCard-img-container"> */}
+
       <img
         src={image}
         className="product-img"

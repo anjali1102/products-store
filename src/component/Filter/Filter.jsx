@@ -1,9 +1,7 @@
 import React from "react";
 import { FiFilter } from "react-icons/fi";
 import { useFilter } from "../../context/filter-context";
-// import { ColorFilter } from "../ColorFilter/ColorFilter";
 import { CostFilter } from "../CostFilter/CostFilter";
-// import { DesignTemplateFilter } from "../DesignTemplateFilter/DesignTemplateFilter";
 import { TypeFilter } from "../TypeFilter/TypeFilter";
 import "./Filter.css";
 

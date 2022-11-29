@@ -1,6 +1,5 @@
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
-// import { useFilter } from "../context/filter-context";
 
 export const getRatings = (rating) => {
   const arrayOfStars = [1, 2, 3, 4, 5];
@@ -14,9 +13,7 @@ export const getRatings = (rating) => {
 };
 
 export const filteringOfPrice = (products, state) => {
-  // console.log("product", product); //{filterAbove1500:false, ......}
   const { filterAbove1500, filterAbove4000, filterAbove7000 } = state;
-
   const priceNewList = [];
 
   if (
@@ -46,7 +43,6 @@ export const filteringOfPrice = (products, state) => {
 };
 
 export const filteringOfCategory = (categoryList, state) => {
-  // console.log(categoryList);
   const { filterByLoafers, filterBySneakers } = state;
   const categoryNewList = [];
 

@@ -16,7 +16,7 @@ const FilterProvider = ({ children }) => {
     filterReducer,
     filterInitalState
   );
-  // const [product, setProduct] = useState([]);
+
   return (
     <FilterContext.Provider
       value={{ state, dispatch }}
