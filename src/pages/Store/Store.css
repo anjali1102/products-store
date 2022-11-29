@@ -1,17 +1,6 @@
 .store_wrapper {
-  /* display: grid;
-  grid-template-columns: 20% 1fr 20%;
-  gap: 2rem; */
-
-  /* grid-gap: 2.4rem;
-  display: grid;
-  gap: 2.4rem;
-  grid-template-columns: 20% 55% 20%;
-  height: 100%;
-  width: 100%; */
   display: flex;
-  /* gap: 0.5rem; */
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* padding: 2rem; */
+
 }
